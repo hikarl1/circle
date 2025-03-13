@@ -38,5 +38,7 @@ public class CircleMain {
         circle.setRadius(scan.nextDouble());
         printGaris();
         circle.printInfoCircle();
+
+        scan.close();
     }
 }
