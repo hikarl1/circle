@@ -25,11 +25,11 @@ public class Circle {
     }
     
     public double getKeliling(){
-        return (pembilang/penyebut) * radius * 2;
+        return ((double)pembilang/penyebut) * radius * 2;
     }
     
     public double getLuas(){
-        return (pembilang/penyebut)* radius * radius ;
+        return ((double)pembilang/penyebut)* radius * radius ;
     }
     
     public void printInfoCircle(){
