@@ -29,7 +29,7 @@ public class Circle {
     }
     
     public double getLuas(){
-        return ((double)pembilang/penyebut)* radius * radius ;
+        return ((double)pembilang/penyebut)* Math.pow(radius, 2);
     }
     
     public void printInfoCircle(){
